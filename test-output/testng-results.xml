@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="7" passed="7">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suiterunner" duration-ms="77034" started-at="2020-09-16T20:20:47Z" finished-at="2020-09-16T20:22:04Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="77034" started-at="2020-09-16T20:20:47Z" finished-at="2020-09-16T20:22:04Z">
+      <class name="com.yourlogo.testcases.LoginPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.yourlogo.testcases.LoginPageTest@3c0ecd4b]" name="setUp" is-config="true" duration-ms="11724" started-at="2020-09-16T20:20:47Z" finished-at="2020-09-16T20:20:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="goToLogInPageTest()[pri:0, instance:com.yourlogo.testcases.LoginPageTest@3c0ecd4b]" name="goToLogInPageTest" duration-ms="1132" started-at="2020-09-16T20:20:59Z" finished-at="2020-09-16T20:21:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToLogInPageTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.yourlogo.testcases.LoginPageTest@3c0ecd4b]" name="tearDown" is-config="true" duration-ms="723" started-at="2020-09-16T20:21:00Z" finished-at="2020-09-16T20:21:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.yourlogo.testcases.LoginPageTest -->
+      <class name="com.yourlogo.testcases.AddToCartPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.yourlogo.testcases.AddToCartPageTest@5f341870]" name="setUp" is-config="true" duration-ms="6202" started-at="2020-09-16T20:21:14Z" finished-at="2020-09-16T20:21:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="addOneItemToCartTest()[pri:1, instance:com.yourlogo.testcases.AddToCartPageTest@5f341870]" name="addOneItemToCartTest" duration-ms="2215" started-at="2020-09-16T20:21:20Z" finished-at="2020-09-16T20:21:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addOneItemToCartTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.yourlogo.testcases.AddToCartPageTest@5f341870]" name="tearDown" is-config="true" duration-ms="718" started-at="2020-09-16T20:21:22Z" finished-at="2020-09-16T20:21:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.yourlogo.testcases.AddToCartPageTest@5f341870]" name="setUp" is-config="true" duration-ms="6203" started-at="2020-09-16T20:21:33Z" finished-at="2020-09-16T20:21:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="clickCheckOutTest()[pri:2, instance:com.yourlogo.testcases.AddToCartPageTest@5f341870]" name="clickCheckOutTest" duration-ms="1795" started-at="2020-09-16T20:21:39Z" finished-at="2020-09-16T20:21:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickCheckOutTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.yourlogo.testcases.AddToCartPageTest@5f341870]" name="tearDown" is-config="true" duration-ms="1019" started-at="2020-09-16T20:21:41Z" finished-at="2020-09-16T20:21:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.yourlogo.testcases.AddToCartPageTest -->
+      <class name="com.yourlogo.testcases.AlreadyAccountPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.yourlogo.testcases.AlreadyAccountPageTest@14bf9759]" name="setUp" is-config="true" duration-ms="9506" started-at="2020-09-16T20:21:01Z" finished-at="2020-09-16T20:21:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="checkAccountPageTest()[pri:1, instance:com.yourlogo.testcases.AlreadyAccountPageTest@14bf9759]" name="checkAccountPageTest" duration-ms="2279" started-at="2020-09-16T20:21:11Z" finished-at="2020-09-16T20:21:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkAccountPageTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.yourlogo.testcases.AlreadyAccountPageTest@14bf9759]" name="tearDown" is-config="true" duration-ms="1029" started-at="2020-09-16T20:21:13Z" finished-at="2020-09-16T20:21:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.yourlogo.testcases.AlreadyAccountPageTest@14bf9759]" name="setUp" is-config="true" duration-ms="7720" started-at="2020-09-16T20:21:23Z" finished-at="2020-09-16T20:21:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="BlankUnPwTest()[pri:2, instance:com.yourlogo.testcases.AlreadyAccountPageTest@14bf9759]" name="BlankUnPwTest" duration-ms="1151" started-at="2020-09-16T20:21:31Z" finished-at="2020-09-16T20:21:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BlankUnPwTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.yourlogo.testcases.AlreadyAccountPageTest@14bf9759]" name="tearDown" is-config="true" duration-ms="1175" started-at="2020-09-16T20:21:32Z" finished-at="2020-09-16T20:21:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.yourlogo.testcases.AlreadyAccountPageTest@14bf9759]" name="setUp" is-config="true" duration-ms="8096" started-at="2020-09-16T20:21:42Z" finished-at="2020-09-16T20:21:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="WrongUnPwTest()[pri:3, instance:com.yourlogo.testcases.AlreadyAccountPageTest@14bf9759]" name="WrongUnPwTest" duration-ms="1286" started-at="2020-09-16T20:21:50Z" finished-at="2020-09-16T20:21:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WrongUnPwTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.yourlogo.testcases.AlreadyAccountPageTest@14bf9759]" name="tearDown" is-config="true" duration-ms="716" started-at="2020-09-16T20:21:51Z" finished-at="2020-09-16T20:21:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.yourlogo.testcases.AlreadyAccountPageTest@14bf9759]" name="setUp" is-config="true" duration-ms="9425" started-at="2020-09-16T20:21:52Z" finished-at="2020-09-16T20:22:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="signInTest()[pri:4, instance:com.yourlogo.testcases.AlreadyAccountPageTest@14bf9759]" name="signInTest" duration-ms="2113" started-at="2020-09-16T20:22:02Z" finished-at="2020-09-16T20:22:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signInTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.yourlogo.testcases.AlreadyAccountPageTest@14bf9759]" name="tearDown" is-config="true" duration-ms="755" started-at="2020-09-16T20:22:04Z" finished-at="2020-09-16T20:22:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.yourlogo.testcases.AlreadyAccountPageTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suiterunner -->
+</testng-results>
