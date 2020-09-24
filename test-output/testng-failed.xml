@@ -1,15 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Suiterunner]" parallel="tests">
+  <listeners>
+    <listener class-name="com.yourlogo.ExtentReportListener.ExtentReporterListener"/>
+  </listeners>
   <test thread-count="5" name="Test(failed)" parallel="tests">
     <classes>
-      <class name="com.yourlogo.testcases.AlreadyAccountPageTest">
+      <class name="com.yourlogo.testcases.AddToCartPageTest">
         <methods>
           <include name="tearDown"/>
           <include name="setUp"/>
-          <include name="WrongUnTest"/>
+          <include name="addOneItemToCartTest"/>
         </methods>
-      </class> <!-- com.yourlogo.testcases.AlreadyAccountPageTest -->
+      </class> <!-- com.yourlogo.testcases.AddToCartPageTest -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suiterunner] -->
