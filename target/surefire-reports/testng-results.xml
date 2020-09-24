@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Command line suite" duration-ms="24056" started-at="2020-09-24T20:48:37Z" finished-at="2020-09-24T20:49:01Z">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="24056" started-at="2020-09-24T20:48:37Z" finished-at="2020-09-24T20:49:01Z">
+      <class name="com.yourlogo.testcases.MyAccountPageTest">
+        <test-method status="PASS" signature="test()[pri:0, instance:com.yourlogo.testcases.MyAccountPageTest@5a61f5df]" name="test" duration-ms="1" started-at="2020-09-24T20:48:51Z" finished-at="2020-09-24T20:48:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+      </class> <!-- com.yourlogo.testcases.MyAccountPageTest -->
+      <class name="com.yourlogo.testcases.AddToCartPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.yourlogo.testcases.AddToCartPageTest@7225790e]" name="setUp" is-config="true" duration-ms="5727" started-at="2020-09-24T20:48:51Z" finished-at="2020-09-24T20:48:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="addOneItemToCartTest()[pri:1, instance:com.yourlogo.testcases.AddToCartPageTest@7225790e]" name="addOneItemToCartTest" duration-ms="2277" started-at="2020-09-24T20:48:57Z" finished-at="2020-09-24T20:48:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addOneItemToCartTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.yourlogo.testcases.AddToCartPageTest@7225790e]" name="tearDown" is-config="true" duration-ms="1207" started-at="2020-09-24T20:48:59Z" finished-at="2020-09-24T20:49:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.yourlogo.testcases.AddToCartPageTest -->
+      <class name="com.yourlogo.testcases.LoginPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.yourlogo.testcases.LoginPageTest@36f6e879]" name="setUp" is-config="true" duration-ms="13009" started-at="2020-09-24T20:48:37Z" finished-at="2020-09-24T20:48:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="goToLogInPageTest()[pri:0, instance:com.yourlogo.testcases.LoginPageTest@36f6e879]" name="goToLogInPageTest" duration-ms="1096" started-at="2020-09-24T20:48:50Z" finished-at="2020-09-24T20:48:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToLogInPageTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.yourlogo.testcases.LoginPageTest@36f6e879]" name="tearDown" is-config="true" duration-ms="693" started-at="2020-09-24T20:48:51Z" finished-at="2020-09-24T20:48:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.yourlogo.testcases.LoginPageTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- Command line suite -->
+</testng-results>

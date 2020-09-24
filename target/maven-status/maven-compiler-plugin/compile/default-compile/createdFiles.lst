@@ -1,0 +1,9 @@
+com\yourlogo\pages\CheckOutPage.class
+com\yourlogo\ExtentReportListener\ExtentReporterListener.class
+com\yourlogo\pages\AddToCartPage.class
+com\yourlogo\utility\WebEventListener.class
+com\yourlogo\utility\TestUtil.class
+com\yourlogo\testbase\TestBase.class
+com\yourlogo\pages\LoginPage.class
+com\yourlogo\pages\AlreadyAccountPage.class
+com\yourlogo\pages\MyAccountPage.class
